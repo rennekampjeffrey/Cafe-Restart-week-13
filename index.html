@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moonwood Café</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="site-alert" id="site-alert-text">
+        🚨 Weather update: We are closing early at 5:00 PM today.
+      </p>
+      <h1>Moonwood Café</h1>
+      <p class="tagline">
+        A forest-inspired café with house-roasted coffee, herbal teas, and fresh
+        pastries.
+      </p>
+      <button id="toggle-mode">Toggle Day/Night Mode</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          id="cafe-img"
+          src="./cafe-day.svg"
+          alt="Illustration of Moonwood Café in daytime"
+        />
+        <p>
+          Step inside a cozy woodland space with warm lighting, wood textures,
+          and handcrafted drinks.
+        </p>
+      </section>
+
+      <section>
+        <h2>Our Menu</h2>
+        <ul id="menu-list"></ul>
+      </section>
+
+      <section class="specials">
+        <h2>Daily Special</h2>
+        <button id="show-special">Show Daily Special</button>
+        <p id="daily-special"></p>
+      </section>
+
+      <section>
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <button class="faq-question">What are your hours?</button>
+          <div class="faq-answer">We’re open 7:00 AM – 7:00 PM every day.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you have dairy-free options?</button>
+          <div class="faq-answer">
+            Yes. We offer oat, almond, and soy milk at no extra cost.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Are pets allowed on the patio?</button>
+          <div class="faq-answer">
+            Yes, friendly pets are welcome on our outdoor patio.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Can I order ahead?</button>
+          <div class="faq-answer">
+            Yes, call us directly and we’ll have your order ready for pickup.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
